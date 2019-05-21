@@ -11,7 +11,7 @@ You need to have installed npm (installed with Node.js) on your machine. Clone o
 
 Once the modules are installed, run the following command
 
-`npm start`
+`npm run start`
 
 You can see the app running on http://localhost:3000
 
