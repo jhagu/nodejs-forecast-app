@@ -13,21 +13,25 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <img class="portrait" src="/img/me.jpg" />
-        <p>Hello! My name is Juan. Im 32 years old. Im living in Cordoba, Argentina.
-            Im working as backend developer in a company of my country. Also,
-            Im studying System Engineering.</p>
-
-        <h4>My social networks</h4>
-        <ul>
-            <li><a class="social-network-link" href="https://ar.linkedin.com/in/juan-agu">LinkedIn</a></li>
-            <li><a class="social-network-link" href="https://github.com/jhagu">GitHub</a></li>
-        </ul>
-
-        <h4>About the app</h4>
-        <p>I toke a course about Node.js to refresh my knowledgments and this is my first app
-            deployed on the cloud. It is very simple but it helps me a lot to understad the main
-            features of Node.js. I'll hope you enjoy it!</p>
+        <div class="about">
+            <div>
+                <p>This site was created by Juan Agu.
+                    It uses data from <a href="https://www.mapbox.com/">mapbox</a>
+                    and <a href="https://darksky.net">darksky</a>
+                </p>
+                <p>Hello! My name is Juan. Im 32 years old. Im living in Cordoba, Argentina.
+                    Im working as backend developer in a company of my country. Also,
+                    Im studying System Engineering.
+                </p>
+                <p>I toke a course about Node.js to refresh my knowledgments and this is my first app
+                    deployed on the cloud. It is very simple but it helps me a lot to understad the main
+                    features of Node.js. I'll hope you enjoy it!
+                </p>
+            </div>
+            <div>
+                <img class="portrait" src="/img/me.jpg" />
+            </div>
+        </div>
     </div>
     {{>footer}}
 </body>
